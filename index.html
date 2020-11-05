@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="nav-flex">
+        <a href="/"><img src="./images/Logo.svg" alt="" /></a>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <!-- <img src="./images/menu-icon.svg" alt="" /> -->
+          <svg
+            class="menu-icon"
+            width="24"
+            height="16"
+            viewBox="0 0 24 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="menu-container" id="menu-container" data-menu>
+        <button class="close-button" width="40" height="40"></button>
+        <ul class="left-nav list">
+          <li class="left-item"><a href="" class="left-link">О нас</a></li>
+          <li class="left-item">
+            <a href="" class="left-link">Услуги и цены</a>
+          </li>
+          <li class="left-item"><a href="" class="left-link">Мастера</a></li>
+          <li class="left-item"><a href="" class="left-link">Контакты</a></li>
+        </ul>
+        <ul class="right-nav list">
+          <li class="right-item">
+            <a href="tel:+380501440746" class="right-link">+380501440746</a>
+          </li>
+          <li class="right-item">
+            <a href="/" class="right-link">Онлайн запись</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

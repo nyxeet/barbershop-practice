@@ -1,0 +1,22 @@
+.right-nav {
+  display: block;
+  .right-item {
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+  .right-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #303030;
+  }
+  .right-link:hover {
+    color: #ff6c00;
+  }
+}
