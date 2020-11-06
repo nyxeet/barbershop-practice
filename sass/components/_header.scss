@@ -8,11 +8,13 @@
 .nav-flex {
   display: flex;
   align-items: center;
-  margin-top: 40px;
 }
-.menu-icon {
-  fill: white;
-  &:hover {
-    fill: red;
-  }
+.header {
+  width: 480;
+  height: 580px;
+  padding-top: 40px;
+  background-image: url("../../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

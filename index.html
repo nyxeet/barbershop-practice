@@ -7,56 +7,71 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <header class="container">
-      <div class="nav-flex">
-        <a href="/"><img src="./images/Logo.svg" alt="" /></a>
-        <button
-          type="button"
-          class="menu-button"
-          aria-expanded="false"
-          aria-controls="menu-container"
-          data-menu-button
-        >
-          <!-- <img src="./images/menu-icon.svg" alt="" /> -->
-          <svg
-            class="menu-icon"
-            width="24"
-            height="16"
-            viewBox="0 0 24 16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"
-            />
-          </svg>
-        </button>
+    <header class="header">
+      <div class="container nav-flex">
+          <a href="/"><img src="./images/Logo.svg" alt="" /></a>
+          <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <svg class="menu-icon" width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" />
+            </svg>
+          </button>
+      </div> 
+      <div class="backdrop" backdrop-menu>
+        <div class="menu-container" id="menu-container" data-menu>
+          <ul class="left-nav list">
+            <li class="left-item"><a href="" class="left-link">О нас</a></li>
+            <li class="left-item">
+              <a href="" class="left-link">Услуги и цены</a>
+            </li>
+            <li class="left-item"><a href="" class="left-link">Мастера</a></li>
+            <li class="left-item"><a href="" class="left-link">Контакты</a></li>
+          </ul>
+          <ul class="right-nav list">
+            <li class="right-item">
+              <a href="tel:+380501440746" class="right-link">+38 050 144 07 46</a>
+            </li>
+            <li class="right-item">
+              <button class="right-button">Онлайн-запись</button>
+            </li>
+          </ul>
+          <div class="nav-line"></div>
+          <ul class="social-nav list">
+            <li class="social-item"><a href="/" class="social-link">Instagram</a></li>
+            <li class="social-item"><a href="/" class="social-link">Youtube</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="menu-container" id="menu-container" data-menu>
-        <button class="close-button" width="40" height="40"></button>
-        <ul class="left-nav list">
-          <li class="left-item"><a href="" class="left-link">О нас</a></li>
-          <li class="left-item">
-            <a href="" class="left-link">Услуги и цены</a>
-          </li>
-          <li class="left-item"><a href="" class="left-link">Мастера</a></li>
-          <li class="left-item"><a href="" class="left-link">Контакты</a></li>
-        </ul>
-        <ul class="right-nav list">
-          <li class="right-item">
-            <a href="tel:+380501440746" class="right-link">+380501440746</a>
-          </li>
-          <li class="right-item">
-            <a href="/" class="right-link">Онлайн запись</a>
-          </li>
-        </ul>
+      <div class="hero">
+        <div class="line-flex">
+          <div class="hero-line"></div>
+          <p class="hero-text">A hair salon for men in Kyiv</p>
+        </div>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-description">Мы эксперты в модных мужских <br> стрижках. Работаем быстро<br> осторожно и со вкусом.</p>
+      
       </div>
     </header>
+    <section class="about">
+      <div class="container">
+        <div class="line-flex">
+          <div class="about-line"></div>
+          <p class="about-line-text">О НАС</p>
+        </div>
+        <h1 class="about-title">Лучший Барбершоп твоего города</h1>
+        <p class="about-first-text">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+        <p class="about-second-text">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь
+        в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
+        Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+        <button class="about-button">Онлайн-запись</button>
+      </div>
+      
+    </section>
     <script src="js/menu.js"></script>
   </body>
 </html>

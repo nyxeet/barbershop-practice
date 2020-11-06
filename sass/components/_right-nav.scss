@@ -1,6 +1,8 @@
 .right-nav {
   display: block;
+  margin-bottom: 64px;
   .right-item {
+    text-align: left;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -15,8 +17,28 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #303030;
+    transition: all 250ms ease;
   }
   .right-link:hover {
     color: #ff6c00;
+  }
+  .right-button {
+    width: 194px;
+    height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #ff6c00;
+    border-radius: 25px;
+    transition: all 250ms ease;
+    &:hover {
+      background-color: #ff6c00;
+      color: white;
+    }
   }
 }

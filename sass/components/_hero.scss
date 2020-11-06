@@ -1,0 +1,47 @@
+.hero {
+  position: relative;
+  margin-left: 31px;
+  margin-top: 112px;
+}
+
+.hero-line {
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.6);
+}
+.hero-text {
+  margin-left: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.hero-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}

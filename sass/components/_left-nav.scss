@@ -2,6 +2,7 @@
   display: block;
   margin-bottom: 64px;
   .left-item {
+    text-align: left;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -13,7 +14,6 @@
     font-size: 18px;
     line-height: 25px;
     /* identical to box height */
-    text-align: center;
     letter-spacing: 0.1em;
     color: black;
     transition: all 250ms ease;

@@ -8,7 +8,7 @@
 body {
   font-family: Roboto, sans-serif;
   text-decoration: none;
-  background-color: lightblue;
+  background-color: white;
 }
 a {
   text-decoration: none;
@@ -17,4 +17,8 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.line-flex {
+  display: flex;
+  align-items: center;
 }

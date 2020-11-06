@@ -1,0 +1,80 @@
+.about {
+  padding: 84px 0;
+  height: 300px;
+}
+.about-line {
+  width: 60px;
+  height: 1px;
+  background: #303030;
+}
+.about-line-text {
+  margin-left: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+.about-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+.about-first-text {
+  margin-bottom: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+.about-second-text {
+  margin-bottom: 40px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 186% */
+
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+.about-button {
+  width: 160px;
+  height: 40px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  transition: all 250ms ease;
+  &:hover {
+    background-color: #ff6c00;
+    color: white;
+  }
+}
