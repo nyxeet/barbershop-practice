@@ -1,0 +1,103 @@
+.portfolio {
+  padding: 84px 31px;
+}
+.portfolio-line {
+  width: 60px;
+  height: 1px;
+  background: #303030;
+}
+.portfolio-line-text {
+  margin-left: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+.portfolio-title {
+  margin: 20px 0;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+.portfolio-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+.portfolio-list {
+  display: flex;
+  margin-top: 44px;
+}
+.portfolio-first {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.portfolio-second {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.portfolio-item {
+  padding: 20px 35px 20px 36px;
+  width: 193px;
+  height: 133px;
+  background-color: #f7f7f7;
+  &:first-child {
+    margin-bottom: 30px;
+  }
+}
+.portfolio-num {
+  position: relative;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+  .plus {
+    position: absolute;
+    top: 7px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #ff6c00;
+  }
+}
+
+.portfolio-description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #303030;
+}

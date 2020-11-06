@@ -86,3 +86,25 @@
     color: #9da4bd;
   }
 }
+.price-button {
+  width: 160px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 129px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: white;
+  transition: all 250ms ease;
+  &:hover {
+    background-color: #ff6c00;
+    color: white;
+  }
+}
