@@ -1,0 +1,32 @@
+.photos {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+.photos-line {
+  margin-right: 20px;
+  width: 60px;
+  height: 1px;
+  background: #303030;
+}
+.photos-line-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 21px;
+  /* or 191% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+.photos-list {
+  margin-top: 44px;
+}
+.photo {
+  width: 100%;
+  &:not(:first-child) {
+    margin-top: 30px;
+  }
+}
