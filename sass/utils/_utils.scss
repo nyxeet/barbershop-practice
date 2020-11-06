@@ -13,6 +13,13 @@ body {
 a {
   text-decoration: none;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 31px;
+  padding-right: 31px;
+}
 .list {
   list-style: none;
   padding: 0;

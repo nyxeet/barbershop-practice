@@ -1,0 +1,88 @@
+.price {
+  height: 826px;
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-image: url("../../images/png1.png");
+  background-color: #111319;
+  background-size: cover;
+  background-position: center;
+}
+.first-line {
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.12);
+}
+.price-line-text {
+  margin-left: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.price-title {
+  margin-top: 20px;
+  margin-bottom: 44px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.price-box {
+  padding: 30px;
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+.price-line {
+  width: 100%;
+  height: 1px;
+  margin-left: 6px;
+  margin-right: 6px;
+  background: rgba(157, 164, 189, 0.12);
+}
+.price-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .text {
+    white-space: nowrap;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+
+    letter-spacing: 0.02em;
+
+    color: #9da4bd;
+  }
+
+  .item-price {
+    white-space: nowrap;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+  }
+}

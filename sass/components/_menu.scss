@@ -2,22 +2,32 @@
   width: 40px;
   height: 40px;
   display: flex;
-  z-index: 1;
   align-items: center;
   justify-content: center;
   margin-left: auto;
   background-color: rgba(1, 1, 1, 0);
   outline: 0;
   border: 0;
-  fill: white;
-  &.is-open {
-    fill: green;
+  z-index: 2;
+  transition: all 1500ms linear;
+  &:hover .menu-icon {
+    transform: scale(1.1);
   }
-  &:hover {
-    fill: red;
-  }
-  z-index: 3;
 }
+.icon-open {
+  fill: white;
+}
+.menu-button .icon-close {
+  display: none;
+}
+.menu-button.is-open .icon-close {
+  display: block;
+  fill: black;
+}
+.menu-button.is-open .icon-open {
+  display: none;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -29,7 +39,7 @@
     pointer-events: initial;
     background: rgba(25, 28, 38, 0.2);
   }
-  z-index: 2;
+  z-index: 1;
 }
 .menu-container {
   position: absolute;

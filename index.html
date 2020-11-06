@@ -16,9 +16,9 @@
       <div class="container nav-flex">
           <a href="/"><img src="./images/Logo.svg" alt="" /></a>
           <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
-            <svg class="menu-icon" width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" />
+            <svg class="menu-icon" width="40" height="40">
+              <use class="icon-open" href="./images/sprite.svg#icon-open"></use>
+              <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
             </svg>
           </button>
       </div> 
@@ -71,6 +71,48 @@
         <button class="about-button">Онлайн-запись</button>
       </div>
       
+    </section>
+    <section class="price container">
+      <div class="line-flex">
+        <div class="first-line"></div>
+        <p class="price-line-text">Проведи время в компании лучших мастеров</p>
+      </div>
+      <h1 class="price-title">Услуги и цены</h1>
+      <ul class="price-box list">
+        <li class="price-item">
+          <p class="text">Мужская стрижка</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 300 грн.</p>
+        </li>
+        <li class="price-item">
+          <p class="text">Стрижка бороды</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 200 грн.</p></li>
+        <li class="price-item">
+          <p class="text">Стрижка усов</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 200 грн.</p></li>
+        <li class="price-item">
+          <p class="text">Бритье опасной бритвой</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 200 грн.</p></li>
+        <li class="price-item">
+          <p class="text">Cтрижка у стажера</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 50 грн.</p></li>
+        <li class="price-item">
+          <p class="text">Стрижка под насадку</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 200 грн.</p></li>
+        <li class="price-item">
+          <p class="text">Детская стрижка (до 12 лет)</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 300 грн.</p></li>
+        <li class="price-item">
+          <p class="text">Камуфлирование седины</p>
+          <div class="price-line"></div>
+          <p class="item-price">от 200 грн.</p></li>
+      </ul>
     </section>
     <script src="js/menu.js"></script>
   </body>
