@@ -1,0 +1,118 @@
+.form-section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background: #191c26;
+}
+.form-title {
+  margin-bottom: 44px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.form-field {
+  .form-input {
+    margin-bottom: 44px;
+    position: relative;
+    width: 100%;
+    height: 24px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    caret-color: white;
+    color: white;
+    cursor: pointer;
+    background-color: #191c26;
+    transition: all 250ms linear;
+    &:focus,
+    &:hover {
+      border-bottom: 1px solid white;
+    }
+    &:hover::placeholder {
+      color: white;
+    }
+    &:focus::placeholder {
+      opacity: 0;
+    }
+  }
+  .form-input::placeholder {
+    position: absolute;
+    top: 0;
+    transform: translateY(-5px);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.4);
+    transition: all 250ms linear;
+    opacity: 1;
+  }
+}
+.form-textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  color: white;
+  caret-color: white;
+  cursor: pointer;
+  background-color: #191c26;
+  resize: none;
+  transition: all 250ms linear;
+  &:focus,
+  &:hover {
+    border-bottom: 1px solid white;
+  }
+  &:hover::placeholder {
+    color: white;
+  }
+  &:focus::placeholder {
+    opacity: 0;
+  }
+  &::placeholder {
+    position: absolute;
+    top: 0;
+    transform: translateY(-2px);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.4);
+    opacity: 1;
+  }
+}
+.form-button {
+  width: 160px;
+  height: 40px;
+  margin-top: 44px;
+  margin-left: 129px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: white;
+  transition: all 250ms ease;
+  &:hover {
+    background-color: #ff6c00;
+    color: white;
+  }
+}
