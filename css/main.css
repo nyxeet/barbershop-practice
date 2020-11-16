@@ -94,7 +94,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -758,7 +758,8 @@ a {
   width: 160px;
   height: 40px;
   margin-top: 50px;
-  margin-left: 129px;
+  margin-left: calc((100% - 160px) / 2);
+  text-align: center;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -1320,7 +1321,7 @@ a {
   width: 160px;
   height: 40px;
   margin-top: 44px;
-  margin-left: 129px;
+  margin-left: calc((100% - 160px) / 2);
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;

@@ -90,7 +90,9 @@
   width: 160px;
   height: 40px;
   margin-top: 50px;
-  margin-left: 129px;
+  margin-left: calc((100% - 160px) / 2);
+  text-align: center;
+
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;

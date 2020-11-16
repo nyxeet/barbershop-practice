@@ -98,7 +98,7 @@
   width: 160px;
   height: 40px;
   margin-top: 44px;
-  margin-left: 129px;
+  margin-left: calc((100% - 160px) / 2);
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
